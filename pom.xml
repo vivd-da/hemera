@@ -16,7 +16,7 @@
         <ledgerPort>6865</ledgerPort>
         <operatorParty>Alice</operatorParty>
         <clientParty>Bob</clientParty>
-        <infuraEndpoint>InfuraEndpoint</infuraEndpoint>
+        <infuraEndpoint>http://127.0.0.1:8540</infuraEndpoint>
         <privateKey>yourPrivateKey</privateKey>
         <defaultGasPriceWei>20000000000</defaultGasPriceWei>
     </properties>

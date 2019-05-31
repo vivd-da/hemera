@@ -20,7 +20,7 @@ public class Web3jProvider {
             return;
         }
 
-        String endpoint = String.format("https://%s", infuraEndpoint);
+        String endpoint = String.format("%s", infuraEndpoint);
         this.web3j = Web3j.build(new HttpService(endpoint));
         try {
             this.version = web3j.web3ClientVersion().send().getWeb3ClientVersion();
